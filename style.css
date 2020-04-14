@@ -25,7 +25,16 @@ ul {
     
 }
 
-ul:hover {
+#futurama:hover {
     color: rgb(171, 255, 46);
 }
 
+
+
+#refresh:hover {
+    color: rgb(171, 255, 46);
+}
+
+#info:hover {
+    color: rgb(171, 255, 46);
+}
