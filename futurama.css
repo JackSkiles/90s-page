@@ -2,3 +2,8 @@
 html {
     background-image: url(futurama.jpg);
 }
+
+.head {
+  text-align: center;
+  background-color: darkcyan;
+}
