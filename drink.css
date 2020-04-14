@@ -3,7 +3,32 @@ html {
 }
 
 
+
+
+p {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 10px;
+    background-color: chartreuse;
+    color: blue;
+}
+
+
 #video {
-    padding-left: 600px;
+    display: absolute;
+    padding-left: 700px;
+    margin-top: 20px;
+}
+
+#home {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 10px;
+    color: black;
     margin-top: 200px;
 }
+
+
