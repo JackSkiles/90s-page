@@ -7,3 +7,16 @@ html {
   text-align: center;
   background-color: darkcyan;
 }
+
+ #phillip {
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+
+#turanga {
+    height: 300px;
+    width: 300px;
+    padding-left: 190px;
+}
