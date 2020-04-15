@@ -64,9 +64,65 @@ html {
     color: silver;
 }
 
-.submenu {
+#submenu {
     text-align: center;
     margin-top: 50px;
     font-size: 30px;
     font-weight: 10px;
+}
+
+ #submenu:hover {
+    color: greenyellow;
+}
+
+.image {
+    padding-left: 390px;
+    padding-top: 50px;
+}
+
+.image > #dr {
+    padding-left: 300px;
+}
+
+.image > #amy {
+    padding-left: 300px;
+
+}
+
+#proftext {
+    padding-left: 220px;
+    font-size: 20px;
+    font-weight: 30px;
+    font-family: sans-serif;
+    
+}
+
+#proftext:hover {
+    font-size: 30px;
+    color: lawngreen
+}
+
+#drtext {
+    padding-left: 810px;
+    font-size: 20px;
+    font-weight: 30px;
+    font-family: sans-serif;
+}
+
+#drtext:hover {
+    font-size: 30px;
+    color: lawngreen
+}
+
+#amytext {
+    padding-left: 1200px;
+    font-size: 20px;
+    font-weight: 30px;
+    font-family: sans-serif;
+}
+
+
+#amytext:hover {
+    font-size: 30px;
+    color: lawngreen
 }
