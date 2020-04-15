@@ -46,3 +46,27 @@ html {
     font-weight: 10px;
     margin-top: 100px;
 }
+
+.imginfo {
+    height: 400px;
+    width: 200px;
+    padding-left: 750px;
+}
+
+.characterinfo {
+    display: block;
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 5;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: blue;
+    color: silver;
+}
+
+.submenu {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 10px;
+}
