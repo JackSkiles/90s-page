@@ -1,3 +1,16 @@
 html {
     background-image: url(blue.jpg);
 }
+
+
+.info {
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: 50px;
+    font-weight: 20;
+    padding-top: 50px;
+}
+
+#home:hover {
+    color: pink;
+}
