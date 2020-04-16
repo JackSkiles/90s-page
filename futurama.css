@@ -5,108 +5,154 @@ html {
 
 .head {
   text-align: center;
-  background-color: darkcyan;
+  background-color: rgb(0, 139, 139);
+}
+ul {
+    list-style-type: none;
+
+}
+ul li {
+    display: inline;
+    background-color: rgb(42, 175, 175);
+}
+
+ul li a{
+    padding: .2em 1em;
+}
+
+#coffee{
+    position: absolute;
+    right: 67%;
+    top: 50%;
+    font-size: 40px;
 }
 
  #phillip {
+    position: absolute;
+    right: 65%;
     height: 300px;
     width: 300px;
-    margin-top: 100px;
-    padding-left: 290px;
 }
 
+#eye {
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    font-size: 40px;
+}
 #turanga {
+    position: absolute;
+    right: 40%;
     height: 300px;
     width: 300px;
-    padding-left: 190px;
 }
 
+#bend {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 40px;
+}
 #rodriguez {
+    position: absolute;
+    right: 15%;
     height: 300px;
     width: 300px;
-    padding-left: 190px;
 }
 
-#support {
-    display: block;
-    text-align: center;
-    padding-top: 100px;
-    font-size: 30px;
-    font-weight: 10px;
-}
-
-#support:hover {
-    color: rgba(0, 139, 139, 8);
-}
 
 #home {
     text-align: center;
     font-size: 30px;
     font-family: monospace;
     font-weight: 10px;
-    margin-top: 100px;
 }
 
 .imginfo {
+    position: absolute;
+    right: 50%;
     height: 400px;
     width: 200px;
-    padding-left: 750px;
+}
+.clear {
+    clear: both;
 }
 
 .characterinfo {
-    display: block;
-    margin-top: 200px;
+    position: relative;
     font-size: 20px;
     font-weight: 5;
+    top: 550px;
     font-family: sans-serif;
     text-align: center;
-    background-color: blue;
-    color: silver;
+    background-color: skyblue;
 }
 
 #submenu {
-    text-align: center;
-    margin-top: 50px;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
     font-size: 30px;
     font-weight: 10px;
 }
 
- #submenu:hover {
+#submenu:hover {
     color: greenyellow;
 }
 
-.image {
-    padding-left: 390px;
-    padding-top: 50px;
+#professor {
+   float: left;
 }
 
-.image > #dr {
-    padding-left: 300px;
-}
-
-.image > #amy {
-    padding-left: 300px;
-
-}
 
 #proftext {
-    padding-left: 220px;
-    font-size: 20px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-size: 30px;
     font-weight: 30px;
     font-family: sans-serif;
-    
+    background-color: skyblue;
 }
 
+#dr {
+    float: right;
+}
+
+#amy {
+    float: left;
+    margin-top: 10px;
+    padding-top: 50px;
+    clear: both;
+}
+#zap {
+    float: right;
+    margin-top: 10px;
+    padding-top: 50px
+}
+
+#zaptext {
+    position: absolute;
+    left: 52%;
+    top: 57%;
+    font-size: 29px;
+    font-weight: 30px;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
 #proftext:hover {
     font-size: 30px;
     color: lawngreen
 }
 
 #drtext {
-    padding-left: 810px;
-    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    top: 24%;
+    font-size: 30px;
     font-weight: 30px;
     font-family: sans-serif;
+    background-color: skyblue;
 }
 
 #drtext:hover {
@@ -115,11 +161,15 @@ html {
 }
 
 #amytext {
-    padding-left: 1200px;
-    font-size: 20px;
+    position: absolute;
+    left: 12%;
+    top: 60%;
+    font-size: 30px;
     font-weight: 30px;
     font-family: sans-serif;
+    background-color: skyblue;
 }
+
 
 
 #amytext:hover {
@@ -128,13 +178,35 @@ html {
 }
 
 #video1 {
-    padding-left: 260px;
+  position: absolute;
+  right: 65%;
 }
 
 #video2 {
-    padding-left: 300px;
+ position: absolute;
+ right: 40%;
 }
 
 #video3 {
-    padding-left: 300px;
+    position: absolute;
+    right: 15%;
+}
+
+.foot {
+    position: absolute;
+    right: 35%;
+    bottom: 0%;
+    font-size: 50px;
+    font-weight: 10px;
+    background-color: skyblue;
+}
+
+.par {
+    font-size: 30px;
+    background-color: skyblue;
+
+}
+.par2 {
+    font-size: 30px;
+    background-color: skyblue;
 }
